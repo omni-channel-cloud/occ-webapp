@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default function OccExtendsHOC(WrappedComponent) {
-  return class extends Component {
+  return class OEHOC extends Component {
     constructor(props) {
       super(props)
     }
