@@ -1,11 +1,11 @@
 {
   "name": "occ-webapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "开发思路：[大型企业应用在前端微应用视角下的思考](https://github.com/iuap-design/blog/issues/306)",
   "main": "index.js",
   "scripts": {
-    "start": "ucf-scripts start --homepage=singletable-query",
-    "build": "ucf-scripts build"
+    "start": "occ-scripts start --homepage=singletable-query",
+    "build": "occ-scripts build"
   },
   "repository": {
     "type": "git",
