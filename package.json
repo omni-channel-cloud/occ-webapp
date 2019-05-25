@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/iuap-design/ucf-webapp#readme",
   "devDependencies": {
-    "ucf-scripts": "^1.1.7"
+    "occ-scripts": "^0.0.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
@@ -31,6 +31,6 @@
     "react-dom": "^16.8.6",
     "react-intl": "^2.8.0",
     "ucf-fe": "^0.1.0",
-    "ucf-request": "^1.0.0"
+    "occ-request": "^0.0.1"
   }
 }
