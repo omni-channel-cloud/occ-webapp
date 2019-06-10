@@ -1,0 +1,174 @@
+// 数据图表框架
+.chartPanelForm {
+  width: 100%;
+  height: 100%;
+  .chartPanelBox {
+    clear: both;
+    zoom: 1;
+    &:after {
+      content: " ";
+      display: block;
+      line-height: 0;
+      height: 0;
+      visibility: hidden;
+      clear: both;
+    }
+    background: #ffffff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin-top: 20px;
+    position: relative;
+    .cp-title {
+      z-index: 2;
+      font-weight: 600;
+      position: absolute;
+      height: 20px;
+      line-height: 20px;
+      top: 20px;
+      left: 20px;
+      font-size: 20px;
+      color: #333333;
+    }
+    .cp-contentBox {
+      padding: 50px 20px 0 20px;
+    }
+  }
+}
+// 服务中心
+.chartPanelServiceCenterBox {
+  height: 250px;
+  .cp-contentBox {
+    .ul-b {
+      margin-top: 40px;
+    }
+    .li-b {
+      margin-top: 10px;
+      margin-left: 10px;
+
+      font-weight: bold;
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .s-icon {
+        margin-right: 8px;
+        background: #666;
+        height: 10px;
+        width: 10px;
+        border-radius: 2px;
+        &.s-icon01 {
+          background: #9a47ff;
+        }
+        &.s-icon02 {
+          background: #30c381;
+        }
+        &.s-icon03 {
+          background: #faaf1e;
+        }
+      }
+      .s-name {
+        margin-right: 10px;
+        font-size: 14px;
+        color: #333333;
+      }
+      .s-num {
+        font-size: 16px;
+        color: #666666;
+        font-family: "Arial Narrow", Arial;
+      }
+    }
+  }
+  .chartPanelServiceCenter {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 180px;
+    width: 180px;
+  }
+}
+// 异常分布chartPanelUnusualBox
+.chartPanelUnusualBox {
+  height: 250px;
+  .cp-navBox {
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    .nav-btn {
+      display: inline-block;
+      height: 24px;
+      line-height: 24px;
+      margin-left: 10px;
+      width: 40px;
+      font-size: 14px;
+      text-align: center;
+      color: #666;
+      cursor: pointer;
+      &:hover {
+        color: #f66;
+      }
+      &.nav-active {
+        color: #d33;
+        border-bottom: 2px solid #d33;
+      }
+      &.nav-active:hover {
+        color: #d33;
+      }
+    }
+  }
+  .cp-contentBox {
+    z-index: 2;
+    position: absolute;
+    .numBox {
+      font-size: 14px;
+      margin: 0 0 0 10px;
+      height: 30px;
+      line-height: 30px;
+      color: #999;
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .s-icon {
+        margin-right: 8px;
+        // background: #666;
+        background: #f33;
+        height: 10px;
+        width: 10px;
+        border-radius: 2px;
+      }
+      .s-title {
+        color: #333;
+      }
+      .s-num {
+        margin-left: 5px;
+        // font-weight: bold;
+        color: #666;
+      }
+    }
+  }
+  .chartPanelUnusual {
+    margin: 40px 0 0 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+  }
+}
+// 增长趋势chartPanelTendencyBox
+.chartPanelTendencyBox {
+  height: 250px;
+  .cp-contentBox {
+    .numBox {
+      .s-icon {
+        background: #d33;
+      }
+    }
+  }
+  .chartPanelTendency {
+    margin: 40px 0 0 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+  }
+}
