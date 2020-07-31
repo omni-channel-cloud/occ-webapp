@@ -25,11 +25,11 @@
     "@babel/runtime": "^7.4.0",
     "occ-tinper-bee": "^1.0.6-beta",
     "classnames": "^2.2.6",
-    "mirrorx": "^0.2.13",
+    "mirrorx": "^1.1.1",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-intl": "^2.8.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-intl": "^5.4.3",
     "ucf-fe": "^0.1.0",
     "occ-request": "^0.0.1"
   }
