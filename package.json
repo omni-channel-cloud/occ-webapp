@@ -23,7 +23,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
     "@babel/runtime": "^7.4.0",
-    "occ-tinper-bee": "^1.0.3-beta",
+    "occ-tinper-bee": "^1.0.6-beta",
     "classnames": "^2.2.6",
     "mirrorx": "^0.2.13",
     "prop-types": "^15.7.2",
